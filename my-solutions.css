@@ -48,3 +48,38 @@
   width: 30px;
   height: 30px;
 }
+
+/*SOLUZIONE ES.6*/
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+
+/*SOLUZIONE ES.7*/
+.ex-7-img {
+  transition: 2s;
+}
+
+.ex-7-img:hover {
+  filter: grayscale(0.4) sepia(0.7);
+}
+
+/*SOLUZIONE ES.8*/
+.ex-8-img {
+  transition: 2s;
+}
+
+.ex-8-img:hover {
+  filter: grayscale(1) sepia(0.7);
+  border-radius: 30px;
+}
+
+/*SOLUZIONE ES.9*/
+.ex-9-img {
+  transition: 2s;
+}
+
+.ex-9-img:hover {
+  filter: grayscale(1) sepia(0.7);
+  border-radius: 30px;
+  transform: scale(1.5);
+}
