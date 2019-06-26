@@ -1,0 +1,50 @@
+/*SOLUZIONE ES.1*/
+.ex-1-square {
+  transition: 2s;
+}
+
+.ex-1-square:hover {
+  background: red;
+}
+
+/*SOLUZIONE ES.2*/
+.ex-2-square {
+  transition: 3s;
+}
+
+.ex-2-square:active {
+  width: 100%;
+}
+
+/*SOLUZIONE ES.3*/
+.ex-3-square {
+  transition: 2s;
+}
+
+.ex-3-square:hover {
+  border-radius: 50%;
+}
+
+/*SOLUZIONE ES.4*/
+.ex-4-square {
+  transition: 2s;
+}
+
+.ex-4-square:hover {
+  background: inherit;
+}
+
+/*SOLUZIONE ES.5*/
+.ex-5-square {
+  transition: 2s;
+}
+
+.ex-5-square:hover {
+  width: 120px;
+  height: 120px;
+}
+
+.ex-5-square:active {
+  width: 30px;
+  height: 30px;
+}
