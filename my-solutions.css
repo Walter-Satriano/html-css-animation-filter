@@ -83,3 +83,25 @@
   border-radius: 30px;
   transform: scale(1.5);
 }
+
+/*SOLUZIONE ES.10*/
+.ex-10-icon {
+  animation: icon-spinning 1s linear infinite;
+}
+
+@keyframes icon-spinning {
+  0% {
+      transform: rotate(1turn);
+    }
+}
+
+/*SOLUZIONE ES.11*/
+.ex-11-icon:hover {
+  animation: spin-tre-quarti 2s linear;
+}
+
+@keyframes spin-tre-quarti {
+  0% {transform: rotate(0);}
+
+  75% {transform: rotate(0.75turn);}
+}
